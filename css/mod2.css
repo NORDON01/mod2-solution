@@ -54,11 +54,13 @@ h1{
     bottom: 30px ;
     left: 15px;
 }
+
+.blabla2, .blabla4{
+    display: none;
+}
+
 /* ============ Large viewport======== */
  @media(min-width:992px){ 
-    .blabla{
-        display: none;
-    }
     .col-lg-4{
         float: left;
         width: 30%;
@@ -69,9 +71,18 @@ h1{
     .blabla{
         display: none;
     }
-    
+
+    .blabla2{
+        display: block;
+    }
+
     .col-md-6{
         float:left;
         width:45%;
+    }
+
+    .col-md-12{
+        float:left;
+        width:90%;
     }
  }
