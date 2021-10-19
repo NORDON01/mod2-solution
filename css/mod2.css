@@ -1,3 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin : 0;
+    padding : 0;
+}
+
+
 h1{
   text-align: center;  
+  padding: 25px 25px 50px 25px;
 }
+
+.row{
+    width: 100%;
+}
+
+.boite{
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    font-style: normal;
+    background-color:lightgray;
+    width: 300px;
+    height: 240px;
+    border: 1px solid black;
+    position: relative;    
+    margin-left: 20px;
+}
+
+.chicken{
+    background-color: cadetblue; 
+    border: 1px solid black;
+    font-weight: bold;
+    width: 100px;
+    padding: 20px 30px 20px 20px;
+    margin-bottom: 0px;
+    text-align: center; 
+    position: absolute;
+    right: 0px;    
+}
+
+.beef{
+    background-color: lightcoral; 
+    border: 1px solid black;
+    font-weight: bold;
+    width: 100px;
+    padding: 20px 30px 20px 20px;
+    margin-bottom: 0px;
+    text-align: center;
+    position: absolute;
+    right: 0px;
+}
+
+.sushi{
+    background-color:lawngreen; 
+    border: 1px solid black;
+    font-weight: bold;
+    width: 100px;
+    padding: 20px 30px 20px 20px;
+    margin-bottom: 0px;
+    text-align: center;
+    position: absolute;
+    right: 0px;
+}
+
+.blabla{
+    max-width: 300px;
+    position: absolute;
+    bottom: 30px ;
+    left: 15px;
+}
+/* ============ Large viewport======== */
+ @media(min-width:992px){ 
+    .col-lg-4{
+        float: left;
+        width: 30%;
+    }  
+ }    
+/* ============ Medium size viewport ========= */
+ @media(min-width:768px) and (max-width: 991px){
+    .col-md-6{
+        float:left;
+        width:45%;
+    }
+ }
