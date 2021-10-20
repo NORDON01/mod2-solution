@@ -57,7 +57,7 @@ h1{
     left: 15px;
 }
 
-.blabla2{
+.blabla2, .blabla4{
     margin-top: 50px;
     margin-left: 15px;
 }
@@ -88,8 +88,12 @@ h1{
         width:45%;
     }
 
+    .blabla4{
+        display: block;
+    }
+
     .col-md-12{
         float:left;
-        width:90%;
+        width:92%;
     }
  }
